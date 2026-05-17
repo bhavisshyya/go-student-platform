@@ -1,0 +1,45 @@
+# Binaries
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output
+dist/
+
+# Go test artifacts
+*.test
+*.out
+coverage.html
+coverage.txt
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency vendor directory (if not vendoring intentionally)
+vendor/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Air (live reload tool)
+tmp/
